@@ -1,0 +1,23 @@
+.text-menu p {
+    font-size: 30px;
+    color: white;
+}
+
+.cont-nav .d-flex {
+    width: 100%;
+}
+
+.card-columns {
+    column-count: 3;
+    text-align: center;
+}
+
+.card-columns .card {
+    margin: 3%!important;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1!important;
+    }
+}

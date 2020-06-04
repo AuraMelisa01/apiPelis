@@ -23,7 +23,7 @@ btnBuscar.addEventListener('click', () => {
 const card = (data) => {
     for (let i = 0; i < data.Search.length; i++) {
         if (data.Search[i].Poster === 'N/A') {
-            data.Search[i].Poster = '../assets/images/cine.png';
+            data.Search[i].Poster = '../..git/assets/images/cine.png';
         }
         document.getElementById("movies").innerHTML += `
       <div class="card" style="width: 18rem;">
